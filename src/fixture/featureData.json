@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "icon": "ph-person-simple-walk",
+    "title": "Attention",
+    "disc": "Personal attention to every student to help them excel in their studies."
+  },
+  {
+    "id": "2",
+    "icon": "ph-math-operations",
+    "title": "Problem Solving",
+    "disc": "Separate problem-solving sessions and a focus on equation-solving to strengthen fundamental concepts."
+  },
+  {
+    "id": "3",
+    "icon": "ph-exam",
+    "title": "Exams",
+    "disc": "Weekly assessments with SMS alerts for parents to track student progress."
+  },
+  {
+    "id": "4",
+    "icon": "ph-users-three",
+    "title": "Separate",
+    "disc": "Separate courses for NEET, JEE, CET, and board exams based on individual goals."
+  },
+  {
+    "id": "5",
+    "icon": "ph-atom",
+    "title": "Foundation",
+    "disc": "Foundation course after 10th grade to build a strong foundation for academic success."
+  },
+  {
+    "id": "6",
+    "icon": "ph-handshake",
+    "title": "Meeting",
+    "disc": "Four parent meetings per year to discuss student progress and address concerns."
+  }
+]
