@@ -99,8 +99,7 @@ const TrialForm = () => {
     dispatch({ type: "requestStart" })
     try {
       let response = await axios.post(
-        // `${process.env.REACT_APP_ApiUrl}/trial-student`,
-        `http://localhost:8800/api/v1/trial-student`,
+        `${process.env.REACT_APP_ApiUrl}/trial-student`,
         { trial: state.user },
         { cancelToken: ourRequest.token }
       )
