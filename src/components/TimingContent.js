@@ -25,6 +25,7 @@ const TimingContent = () => {
     } else {
       setBatches(bacthOptions)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [course, branch])
 
   return (

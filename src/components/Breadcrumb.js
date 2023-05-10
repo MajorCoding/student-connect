@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components/macro"
 import color from "../constant/color"
 import Wrapper from "../containers/Wrapper"
-import { Link } from "react-router-dom"
 
 const Breadcrumb = ({ title }) => {
   return (

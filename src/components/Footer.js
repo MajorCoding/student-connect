@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components/macro"
 import Wrapper from "../containers/Wrapper"
 import color from "../constant/color"
-import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
