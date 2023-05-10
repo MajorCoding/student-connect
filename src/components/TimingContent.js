@@ -59,18 +59,19 @@ const TimingContent = () => {
             {/* <p>Branch</p> */}
           </div>
           <div className="body">
-            {batches.map((item) => {
-              if (item.value) {
-                return (
-                  <div className="item">
-                    <p>{item.course}</p>
-                    <p>{getOrdinalValue(item.batchNo)}</p>
-                    <p>{item.timing}</p>
-                    {/* <p>{item.branch}</p> */}
-                  </div>
-                )
-              }
-            })}
+            {batches &&
+              // eslint-disable-next-line
+              batches.map((item) => {
+                if (item.value) {
+                  return (
+                    <div className="item">
+                      <p>{item.course}</p>
+                      <p>{getOrdinalValue(item.batchNo)}</p>
+                      <p>{item.timing}</p>
+                    </div>
+                  )
+                }
+              })}
           </div>
         </Card>
       </Body>
