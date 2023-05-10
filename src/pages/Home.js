@@ -56,7 +56,7 @@ const Why = () => {
             // eslint-disable-next-line
             featureData.map((item, index) => {
               if (index < 3) {
-                return <WhyItem icon={item.icon} title={item.title} disc={item.disc} />
+                return <WhyItem key={index} icon={item.icon} title={item.title} disc={item.disc} />
               }
               // eslint-disable-next-line
             })}
@@ -66,7 +66,7 @@ const Why = () => {
             // eslint-disable-next-line
             featureData.map((item, index) => {
               if (index > 2) {
-                return <WhyItem icon={item.icon} title={item.title} disc={item.disc} />
+                return <WhyItem key={index} icon={item.icon} title={item.title} disc={item.disc} />
               }
               // eslint-disable-next-line
             })}

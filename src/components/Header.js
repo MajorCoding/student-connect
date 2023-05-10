@@ -15,7 +15,7 @@ const Header = ({ setIsDrawerOpen }) => {
             </Link>
           </Logo>
           <div className="menu" onClick={setIsDrawerOpen}>
-            <i class="ph ph-list"></i>
+            <i className="ph ph-list"></i>
           </div>
           <Nav>
             <NavItem to="/syllabus">Syllabus</NavItem>

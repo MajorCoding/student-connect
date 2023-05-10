@@ -6,7 +6,7 @@ const WhyItem = ({ icon, title, disc }) => {
   return (
     <Container>
       <Icon title={title}>
-        <i class={`ph ${icon}`}></i>
+        <i className={`ph ${icon}`}></i>
       </Icon>
       <Content>
         <h4>{title}</h4>

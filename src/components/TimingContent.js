@@ -56,15 +56,14 @@ const TimingContent = () => {
             <p>Course</p>
             <p>Batch</p>
             <p>Timing</p>
-            {/* <p>Branch</p> */}
           </div>
           <div className="body">
             {batches &&
               // eslint-disable-next-line
-              batches.map((item) => {
-                if (item.value) {
+              batches.map((item, index) => {
+                if (item.value && item.value !== "select") {
                   return (
-                    <div className="item">
+                    <div className="item" key={index}>
                       <p>{item.course}</p>
                       <p>{getOrdinalValue(item.batchNo)}</p>
                       <p>{item.timing}</p>

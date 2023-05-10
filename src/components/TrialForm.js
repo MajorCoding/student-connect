@@ -80,7 +80,6 @@ const TrialForm = () => {
   useEffect(() => {
     if (state.user.courseId && state.user.branchId) {
       if (state.user.courseId !== "select" && state.user.branchId !== "select") {
-        alert("FilerBatch Run")
         let data = bacthOptions.filter(
           (i) => i.courseId === state.user.courseId && i.branchId === state.user.branchId
         )
@@ -100,11 +99,11 @@ const TrialForm = () => {
     dispatch({ type: "requestStart" })
     try {
       let response = await axios.post(
-        `${process.env.REACT_APP_ApiUrl}/trial-student`,
+        // `${process.env.REACT_APP_ApiUrl}/trial-student`,
+        `http://localhost:8800/api/v1/trial-student`,
         { trial: state.user },
         { cancelToken: ourRequest.token }
       )
-      console.log("Response: ", response.data)
       if (response.data.success) {
         handleModalOpen()
       } else {
@@ -129,7 +128,6 @@ const TrialForm = () => {
     if (hasAllValues(state.user)) {
       dispatch({ type: "errorMsg", msg: "" })
       dispatch({ type: "sendCount" })
-      console.log("Data: ", state.user)
     }
   }
 

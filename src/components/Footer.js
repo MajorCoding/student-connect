@@ -39,7 +39,7 @@ const Footer = () => {
                   <i className="ph ph-envelope-simple"></i> info@prashantpatil.com
                 </span>
                 <span>
-                  <i class="ph ph-map-pin-line"></i> Sector seven, Pradhikarn, Nigdi - 411044
+                  <i className="ph ph-map-pin-line"></i> Sector seven, Pradhikarn, Nigdi - 411044
                 </span>
               </div>
             </div>

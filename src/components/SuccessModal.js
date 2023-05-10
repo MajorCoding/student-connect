@@ -8,7 +8,7 @@ const SuccessModal = ({ isActive, onClosed }) => {
       <Box isActive={isActive}>
         <div className="content">
           <div className="header">
-            <i class="ph ph-check-circle"></i>
+            <i className="ph ph-check-circle"></i>
           </div>
           <div className="body">
             <h3>Success</h3>

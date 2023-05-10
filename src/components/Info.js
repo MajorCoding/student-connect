@@ -6,7 +6,7 @@ const Info = ({ icon, title, info }) => {
   return (
     <Container>
       <Icon>
-        <i class={`ph ${icon}`}></i>
+        <i className={`ph ${icon}`}></i>
       </Icon>
       <Content>
         <p>{title}</p>

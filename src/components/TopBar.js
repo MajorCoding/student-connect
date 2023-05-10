@@ -8,16 +8,16 @@ const TopBar = () => {
       <Wrapper>
         <Content>
           <Item className="first">
-            <i class="ph ph-megaphone"></i>
+            <i className="ph ph-megaphone"></i>
             <span>11th batch starting from 04 May,2023</span>
           </Item>
           <div className="right">
             <Item>
-              <i class="ph ph-envelope-simple"></i>
+              <i className="ph ph-envelope-simple"></i>
               <span>info@studentconnect.in</span>
             </Item>
             <Item>
-              <i class="ph ph-phone"></i>
+              <i className="ph ph-phone"></i>
               <span>+91-9764796379</span>
             </Item>
           </div>
