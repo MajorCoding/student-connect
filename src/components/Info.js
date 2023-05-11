@@ -18,6 +18,7 @@ const Info = ({ icon, title, info }) => {
 
 const Container = styled.div`
   flex: 1;
+  min-width: 240px;
   display: flex;
   align-items: center;
   gap: 12px;

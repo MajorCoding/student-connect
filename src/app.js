@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import Timing from "./pages/Timing"
 import Syllabus from "./pages/Syllabus"
 import ContactUs from "./pages/ContactUs"
+import NotFound from "./pages/NotFound"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/batch-timing" element={<Timing />} />
         <Route path="/syllabus" element={<Syllabus />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )

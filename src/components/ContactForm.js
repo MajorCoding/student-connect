@@ -36,18 +36,20 @@ const ContactForm = () => {
             <Button>Send</Button>
           </Row>
         </Form>
-
-        <Contact data-aos="fade-left">
-          <Info icon="ph-phone" title="Phone" info="+91-9764796379" />
-          <Info icon="ph-phone-disconnect" title="Telephone" info="02452-242077" />
-          <Info
-            data-aos="fade-up"
-            icon="ph-map-trifold"
-            title="Address"
-            info="Sector seven, Pradhikarn, Nigdi - 411044"
-          />
-          <Info icon="ph-envelope-simple" title="Email" info="info@studentconnect.in" />
-        </Contact>
+        <Right>
+          <img data-aos="fade-down" src="./assets/images/biologist.gif" alt="biologiest" />
+          <Contact data-aos="fade-left">
+            <Info icon="ph-phone" title="Phone" info="+91-9764796379" />
+            <Info icon="ph-phone-disconnect" title="Telephone" info="02452-242077" />
+            <Info
+              data-aos="fade-up"
+              icon="ph-map-trifold"
+              title="Address"
+              info="Sector seven, Pradhikarn, Nigdi"
+            />
+            <Info icon="ph-envelope-simple" title="Email" info="info@studentconnect.in" />
+          </Contact>
+        </Right>
       </Body>
     </Container>
   )
@@ -108,19 +110,20 @@ const TextArea = styled.div`
 `
 
 const Form = styled.div`
+  position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 14px;
+  z-index: 22;
 `
 
 const Contact = styled.div`
-  flex: 1.5;
+  margin-top: -70px;
+  flex: 2;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  column-gap: 30px;
-  padding: 20px 0 400px 0;
+  gap: 10px;
 `
 
 const Content = styled.div`
@@ -152,4 +155,17 @@ const Button = styled.button`
   border: none;
   cursor: pointer;
 `
+const Right = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: 400px;
+    margin-top: -130px;
+  }
+`
+
 export default ContactForm

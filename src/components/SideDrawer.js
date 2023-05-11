@@ -106,6 +106,10 @@ const Nav = styled.nav`
   }
   ${Button} {
     color: #fff;
+
+    :hover {
+      color: #fff;
+    }
   }
 `
 

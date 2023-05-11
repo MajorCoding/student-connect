@@ -49,7 +49,7 @@ const Footer = () => {
         <Bottom>
           <p>© 2021 Student Connect Pvt. All rights reserved.</p>
           <p>
-            Made with <i className="ph-fill ph-heart"></i> Vinay
+            Made with <i className="ph-fill ph-heart"></i> By Vinay
           </p>
         </Bottom>
       </Wrapper>

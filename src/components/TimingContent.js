@@ -84,7 +84,7 @@ const getOrdinalValue = (n) => {
   return n + suffix
 }
 const Container = styled.div`
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   /* align-items: flex-end; */

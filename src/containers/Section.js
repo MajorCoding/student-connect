@@ -45,6 +45,10 @@ Section.Achivers = function SectionAchivers({ children }) {
   )
 }
 
+Section.Timing = function SectionTiming({ children }) {
+  return <Timing>{children}</Timing>
+}
+
 const Container = styled.div`
   position: relative;
   width: 100%;
@@ -127,6 +131,12 @@ const AchieversPatter = styled.div`
       margin-bottom: -100px;
     }
   }
+`
+
+const Timing = styled.div`
+  display: flex;
+  justify-content: space-between;
+  height: 800px;
 `
 
 export default Section
